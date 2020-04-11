@@ -1,0 +1,427 @@
+/*網頁背景色*/
+#background
+{
+	background-color:#F5F5DC;
+}
+/*網頁最上面的封面圖*/
+#top_pic
+{
+	display:block;
+	margin:auto;
+}
+#font{
+	font-family:"微軟正黑體";
+}
+/*框住左欄、右欄、頁尾*/
+#container{
+	width: 1000px;
+	height: auto;
+	min-height: 1000px;
+	margin: auto;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px #C0C0C0 solid;
+}
+/*網頁標題：寵物蛋蛋育成*/
+#myHeader{
+	margin: 0 auto;
+	background-color: #B87333;
+	color: white;
+	font-family: "cwTeXFangSong";
+	font-size: 60px;
+	padding: 30px;
+	text-align: center;
+}
+/*上方功能列*/
+#top
+{
+	background-color:#D1DDDB; 
+	text-align: center;
+	padding: 10px;	
+}
+/*上方功能列*/
+.top_text a
+{
+	color:#CE631C;
+	text-decoration:none;
+}
+/*上方功能列：滑鼠滑過字會變色*/
+.change_color:hover .top_text a
+{
+	color: #283B42;
+}
+/*左邊欄的box*/
+#sidebar_left
+{
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	min-height: 600px;
+	padding: 10px;
+	margin: 10px 10px 10px 0px;
+	border: 1px #C0C0C0 solid;
+}
+#sidebar_left a
+{
+	display:block;
+	padding:20px 5px 20px 5px;
+	text-decoration:none;
+	margin:10px auto 10px auto;
+	color:#65350A;
+}
+/*左邊欄的商品分類框框*/
+.block_c a
+{
+	padding:20px 5px 20px 5px;
+	background:#F5DEB3;
+}
+/*文字水平置中*/
+.ct
+{
+	text-align:center;
+}
+/*文字行高*/
+.text_height
+{
+	line-height: 30px;
+}
+/*左邊欄商品分類：滑鼠滑過會顯示子項目*/
+.ww:hover .s
+{
+	display:block;
+}
+/*隱藏左邊欄子項目*/
+.s
+{
+	position:relative;
+	left:20px;
+	display:none;
+}
+.s a 
+{
+	background:#FFFF99;
+}
+/*進站總人數*/
+#people
+{
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 15px;
+	border-style: dashed;
+	border-color:#000000;
+	border-width: 2px;
+}
+#people_number
+{
+	color:#f00; 
+	font-size:28px;
+}
+/*右邊欄的box*/
+#sidebar_right 
+{
+	display:inline-block;
+	vertical-align: top;
+	width:691px;
+	height:600px;
+	padding:10px;
+	margin: 10px 0px 10px 0px;
+	border:1px #C0C0C0 solid;
+	overflow: auto;
+}
+/*表格*/
+.table_style
+{
+	width: 90%;
+	margin: 10px auto;
+}
+/*表格顏色(五種)*/
+.table_c1
+{
+	background: #A5B7C1;
+	font-size: 85%;
+}
+.table_c2
+{
+	background: #97BAA4;
+	font-size: 100%;
+}
+.table_c3
+{
+	background: #CADBAE;
+	font-size: 85%;
+	color: #E60000;
+}
+.table_c4
+{
+	background: #DCC1B0;
+	font-size: 85%;
+}
+.table_c5
+{
+	background: #97BAA4;
+	font-size: 85%;
+}
+/*表格內的圖片*/
+.table_pic
+{
+	width: auto;
+	max-width: 92%;
+	height: auto;
+	max-height: 200px;
+	display:block;
+	margin:4% auto;
+}
+/*頁尾*/
+#bottom
+{
+	background: url(picture/bottom.jpg);
+	height:160px;
+	width: 1000px;
+	line-height: 80px;
+	color: white;
+}
+/*BUY ME圖示*/
+#buy_icon1
+{
+	float: right;
+	height: 25px;
+	width: 70px;
+	margin: 0px 10px 0px 0px;
+}
+#buy_icon2
+{
+	height: 25px;
+	width: 70px;
+	/*margin: 0px 0px 10px 0px;*/
+	position: relative;
+	top:8px;
+}
+/*使用者輸入框*/
+#input
+{
+	height: 20px;
+	width: 20px;
+	margin: 10px 0px;
+}
+
+/*斷點1 - 平板螢幕適用*/
+@media only screen and (max-width: 900px){
+	/*網頁最上面的封面圖*/
+	#top_pic
+	{
+		display:block;
+		margin:auto;
+		max-width: 600px;
+	}
+	/*框住左欄、右欄、頁尾*/
+	#container{
+		max-width: 650px;
+		height: auto;
+		min-height: 650px;
+		margin: auto;
+		font-size: 16px;
+		padding: 10px;
+		border: 1px #C0C0C0 solid;
+	}
+	/*網頁標題：寵物蛋蛋育成*/
+	#myHeader{
+		margin: 0 auto;
+		background-color: #B87333;
+		color: white;
+		font-family: "cwTeXFangSong";
+		font-size: 50px;
+		padding: 30px;
+		text-align: center;
+	}
+	/*左邊欄的box*/
+	#sidebar_left
+	{
+		vertical-align: top;
+		display: inline-block;
+		width: 20%;
+		height: auto;
+		min-height: 600px;
+		padding: 10px;
+		margin: 10px 10px 10px 0px;
+		border: 1px #C0C0C0 solid;
+	}
+	/*隱藏左邊欄子項目*/
+	.s
+	{
+		position:relative;
+		left:15px;
+		display:none;
+	}
+	#people_number
+	{
+		color:#f00; 
+		font-size:24px;
+	}
+	/*右邊欄的box*/
+	#sidebar_right 
+	{
+		display:inline-block;
+		vertical-align: top;
+		width:462px;
+		height:600px;
+		padding:10px;
+		margin: 10px 0px 10px 0px;
+	  	border:1px #C0C0C0 solid;
+	  	overflow: auto;
+	}
+	/*頁尾*/
+	#bottom
+	{
+		background: url(picture/bottom.jpg);
+		height:100px;
+		width: 650px;
+		line-height: 50px;
+		color: white;
+	}
+	/*BUY ME圖示*/
+	#buy_icon1
+	{
+		float: right;
+		height: 20px;
+		width: 55px;
+		margin: 0px 10px 0px 0px;
+	}
+	#buy_icon2
+	{
+		height: 20px;
+		width: 55px;
+		position: relative;
+		top:4px;
+	}
+	/*使用者輸入框*/
+	#input
+	{
+		height: 15px;
+		width: 20px;
+		margin: 10px 0px;
+	}
+}
+/*斷點2 - 手機螢幕適用*/
+@media only screen and (max-width: 500px){
+	/*網頁最上面的封面圖*/
+	#top_pic
+	{
+		display:block;
+		margin:auto;
+		max-width: 500px;
+	}
+	/*框住左欄、右欄、頁尾*/
+	#container{
+		width: 450px;
+		height: auto;
+		min-height: 1000px;
+		margin: auto;
+		padding: 0px;
+		font-size: 14px;
+		border: none;
+	}
+	/*網頁標題：寵物蛋蛋育成*/
+	#myHeader{
+		background-color: #B87333;
+		color: white;
+		font-family: "cwTeXFangSong";
+		font-size: 40px;
+		padding: 10px;
+		text-align: center;
+	}
+	/*上方功能列*/
+	#top
+	{
+		background-color:#D1DDDB; 
+		text-align: center;
+		padding: 5px;	
+	}
+	/*左邊欄的box*/
+	#sidebar_left
+	{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		min-height: 300px;
+		border: none;
+		position: relative;
+		right: 10px;
+	}
+	#sidebar_left a
+	{
+		display:block;
+		text-decoration:none;
+		color:#65350A;
+		padding: 10px;
+	}
+	/*左邊欄的商品分類框框*/
+	.block_c a
+	{
+		margin: auto;
+		background:#F5DEB3;
+	}
+	/*隱藏左邊欄子項目*/
+	.s
+	{
+		position:relative;
+		left:15px;
+		display:none;
+	}
+	.s a 
+	{
+		background:#FFFF99;
+	}
+	/*進站總人數*/
+	#people_number
+	{
+		color:#f00; 
+		font-size:20px;
+	}
+	/*右邊欄的box*/
+	#sidebar_right 
+	{
+		display:inline-block;
+		vertical-align: top;
+		width:100%;
+		height:400px;
+		margin: 10px 0px 10px 0px;
+	    border: none;
+	  	overflow: auto;
+	  	position: relative;
+	  	right: 5px;
+	}
+	/*頁尾*/
+	#bottom
+	{
+		background: url(picture/bottom.jpg);
+		height:70px;
+		width: 100%;
+		line-height: 35px;
+		color: white;
+	}
+	/*BUY ME圖示*/
+	#buy_icon1
+	{
+		float: right;
+		height: 20px;
+		width: 55px;
+		margin: 0px 10px 0px 0px;
+	}
+	#buy_icon2
+	{
+		height: 20px;
+		width: 55px;
+		position: relative;
+		top:4px;
+	}
+	/*使用者輸入框*/
+	#input
+	{
+		height: 15px;
+		width: 20px;
+		margin: 10px 0px;
+	}
+}
+
+
